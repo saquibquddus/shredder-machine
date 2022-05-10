@@ -1,75 +1,28 @@
-# Region of Interest Face Mask Detection Using Detectron2
-## Seven Region of Interest
+# Shredder Machine Using TF-1.x
+### This is the real world implementation of shredder machine which help in reducing the accidents.
 
-### 1. Full Image Prediction
-### 2. Left Half Image Prediction
-### 3. Right Half Image Prediction
-### 4. Top Half Image Prediction
-### 5. Bottom Half Image Prediction
-### 6. Mid Half Image Prediction
-### 7. Centre Image Prediction with 20% reduction in each side.<br/><br/>
+### This is based on camera which detect the person's hand with gloves or without gloves and give an alert message and beep sound when anyone crosses the red line.<br/>
 
-
-## How to run app?
-### Run the clientApp file and then route to different address for each prediction mentioned below.
-<br/><br/>
-
-### Note:  Number added to the top left of each image repesent the time taken  for prediction for each ROI.
-<br/><br/>
-
-## 1. Full Image Prediction
-### Route address: <a href="http://127.0.0.1:9000/">http://127.0.0.1:9000/</a>
-
-#### Predicted Image -
-![Full Image Prediction](output_images/full_image.jpg)
+### How to execute the project?<br/><br/>
+#### First install all the libraries in requirements.txt
+```python
+pip install -r requirements.txt
+```
+#### Run the hand_detection.py file which will open laptop camera and start detectng and tracking of hand.
+```python
+python hand_detection.py
+```
 <br/>
 
-
-
-## 2. Left Half Image Prediction
-### Route address: <a href="http://127.0.0.1:9000/LHR">http://127.0.0.1:9000/LHR</a>
-
-#### Predicted Image -
-![Left Half Image Prediction](output_images/LHR.jpg)
+#### Camera Popup UI -
+![UI](images/UI.jpg)
 <br/>
 
-## 3. Right Half Image Prediction
-### Route address: <a href="http://127.0.0.1:9000/RHR">http://127.0.0.1:9000/RHR</a>
-
-#### Predicted Image -
-![Right Half Image Prediction](output_images/RHR.jpg)
+#### Hand Detection -
+![UI](images/Hand_Detect.jpg)
 <br/>
 
-
-## 4. Top Half Image Prediction
-### Route address: <a href="http://127.0.0.1:9000/THR">http://127.0.0.1:9000/THR</a>
-
-#### Predicted Image -
-![Top Half Image Prediction](output_images/THR.jpg)
+#### Safety Alert -
+![UI](images/Safety_Alert.jpg)
 <br/>
-
-
-## 5. Bottom Half Image Prediction
-### Route address: <a href="http://127.0.0.1:9000/BHR">http://127.0.0.1:9000/BHR</a>
-
-#### Predicted Image -
-![Bottom Half Image Prediction](output_images/BHR.jpg)
-<br/>
-
-
-## 6. Mid Half Image Prediction
-### Route address: <a href="http://127.0.0.1:9000/MR">http://127.0.0.1:9000/MR</a>
-
-#### Predicted Image -
-![Mid Half Image Prediction](output_images/MR.jpg)
-<br/>
-
-
-## 7. Centre Image Prediction with 20% reduction in each side.
-### Route address: <a href="http://127.0.0.1:9000/BCR">http://127.0.0.1:9000/BCR</a>
-
-#### Predicted Image -
-![Centre Image Prediction](output_images/BCR.jpg)
-
-
 
