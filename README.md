@@ -15,14 +15,14 @@ python hand_detection.py
 <br/>
 
 #### Camera Popup UI -
-![UI](images/UI.jpg)
+![UI](images/UI.JPG)
 <br/>
 
 #### Hand Detection -
-![UI](images/Hand_Detect.jpg)
+![UI](images/Hand_Detect.JPG)
 <br/>
 
 #### Safety Alert -
-![UI](images/Safety_Alert.jpg)
+![UI](images/Safety_Alert.JPG)
 <br/>
 
